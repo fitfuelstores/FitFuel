@@ -451,7 +451,15 @@
 </footer>
 
 
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 
+<script>
+  const SUPABASE_URL = "https://zuhqxtjscpfjcqccffkb.supabase.co";
+  const SUPABASE_KEY = "sb_publishable_NF5Z0GZg3cZh5MgZap1z5A__Gv35pIY";
+
+  window.supabaseClient = supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+</script>
+
+ <script src="script.js"></script>
 </body>
                       </html>
